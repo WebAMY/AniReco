@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="visual do site.css">
+<title>AniReco</title>
+
+</head>
+<body>
+<div id="landing">
+	<img id="Imagem_10" src="Imagem_10.png" srcset="Imagem_10.png 1x, Imagem_10@2x.png 2x">
+		
+	<svg class="Retngulo_24">
+		<rect id="Retngulo_24" rx="75" ry="75" x="0" y="0" width=100% height="1270">
+		</rect>
+	</svg>
+	<div id="Aba_Cima">
+		<svg class="Retngulo_5">
+			<rect id="Retngulo_5" rx="0" ry="0" x="0" y="0" width=100% height="93">
+			</rect>
+		</svg>
+		<svg class="Caminho_2" viewBox="0 0 1051 49">
+			<path id="Caminho_2" d="M 24.5 0 L 1026.5 0 C 1040.031005859375 0 1051 10.96902275085449 1051 24.5 C 1051 38.03097534179688 1040.031005859375 49 1026.5 49 L 24.5 49 C 10.96902275085449 49 0 38.03097534179688 0 24.5 C 0 10.96902275085449 10.96902275085449 0 24.5 0 Z">
+			</path>
+		</svg>
+		<div id="Search">
+			<span>Search</span>
+		</div>
+		<div id="AniReco">
+			<span>AniReco</span>
+		</div>
+	</div>
+	<svg class="Retngulo_5_r">
+		<rect id="Retngulo_5_r" rx="0" ry="0" x="0" y="0" width=100% height="695">
+		</rect>
+	</svg>
+	<div id="Aba_Cima_s">
+		<svg class="Retngulo_5_t">
+			<rect id="Retngulo_5_t" rx="0" ry="0" x="0" y="0" width=100% height="179">
+			</rect>
+		</svg>
+		<div id="Repetio_de_grade_1">
+			<div id="Group" class="">
+				<svg class="Retngulo_2">
+					<rect id="Retngulo_2" rx="0" ry="0" x="0" y="0" width="115" height="13">
+					</rect>
+				</svg>
+			</div>
+			<div id="Group_x" class="">
+				<svg class="Retngulo_2_y">
+					<rect id="Retngulo_2_y" rx="0" ry="0" x="0" y="0" width="115" height="13">
+					</rect>
+				</svg>
+			</div>
+			<div id="Group_z" class="">
+				<svg class="Retngulo_2_">
+					<rect id="Retngulo_2_" rx="0" ry="0" x="0" y="0" width="115" height="13">
+					</rect>
+				</svg>
+			</div>
+		</div>
+		<svg class="Caminho_1" viewBox="0 0 129 129">
+			<path id="Caminho_1" d="M 0 0 L 129 0 L 129 129 L 0 129 L 0 0 Z">
+			</path>
+		</svg>
+		<div id="Logo">
+			<span>Logo</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="login">
+		<svg class="Retngulo_25">
+			<rect onclick="application.goToTargetView(event)" id="Retngulo_25" rx="23" ry="23" x="0" y="0" width="155" height="51">
+			</rect>
+		</svg>
+		<div id="Login_">
+			<span>Login</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="sign_up">
+		<svg class="Retngulo_29">
+			<rect id="Retngulo_29" rx="23" ry="23" x="0" y="0" width="155" height="51">
+			</rect>
+		</svg>
+		<div id="Sign_Up_">
+			<a href="/Signup___1"> Sign up </a>
+		</div>
+	</div>
+	<div id="animes_de_ao">
+		<img id="Imagem_43" src="Imagem_43.png" srcset="Imagem_43.png 1x, Imagem_43@2x.png 2x">
+			
+		<img id="Imagem_42" src="Imagem_42.png" srcset="Imagem_42.png 1x, Imagem_42@2x.png 2x">
+			
+		<img id="Imagem_41" src="Imagem_41.png" srcset="Imagem_41.png 1x, Imagem_41@2x.png 2x">
+			
+		<img id="Imagem_40" src="Imagem_40.png" srcset="Imagem_40.png 1x, Imagem_40@2x.png 2x">
+			
+		<img id="Imagem_39" src="Imagem_39.png" srcset="Imagem_39.png 1x, Imagem_39@2x.png 2x">
+			
+		<img id="Imagem_18" src="Imagem_18.png" srcset="Imagem_18.png 1x, Imagem_18@2x.png 2x">
+			
+		<img id="Imagem_14" src="Imagem_14.png" srcset="Imagem_14.png 1x, Imagem_14@2x.png 2x">
+			
+		<img id="Imagem_13" src="Imagem_13.png" srcset="Imagem_13.png 1x, Imagem_13@2x.png 2x">
+			
+		<img id="Imagem_12" src="Imagem_12.png" srcset="Imagem_12.png 1x, Imagem_12@2x.png 2x">
+			
+		<img id="Imagem_44" src="Imagem_44.png" srcset="Imagem_44.png 1x, Imagem_44@2x.png 2x">
+			
+		<img id="Imagem_47" src="Imagem_47.png" srcset="Imagem_47.png 1x, Imagem_47@2x.png 2x">
+			
+		<img id="Imagem_48" src="Imagem_48.png" srcset="Imagem_48.png 1x, Imagem_48@2x.png 2x">
+			
+	</div>
+	<div id="Action">
+		<span>Action</span>
+	</div>
+	<div id="romance">
+		<div id="Romance_bo">
+			<span>Romance</span>
+		</div>
+		<img id="Imagem_19" src="Imagem_19.png" srcset="Imagem_19.png 1x, Imagem_19@2x.png 2x">
+			
+		<img id="Imagem_22" src="Imagem_22.png" srcset="Imagem_22.png 1x, Imagem_22@2x.png 2x">
+			
+		<img id="nx101573-Gql3Q3UX1jcu" src="nx101573-Gql3Q3UX1jcu.png" srcset="nx101573-Gql3Q3UX1jcu.png 1x, nx101573-Gql3Q3UX1jcu@2x.png 2x">
+			
+		<img id="Imagem_49" src="Imagem_49.png" srcset="Imagem_49.png 1x, Imagem_49@2x.png 2x">
+			
+		<img id="Imagem_50" src="Imagem_50.png" srcset="Imagem_50.png 1x, Imagem_50@2x.png 2x">
+			
+		<img id="Imagem_51" src="Imagem_51.png" srcset="Imagem_51.png 1x, Imagem_51@2x.png 2x">
+			
+		<img id="Imagem_52" src="Imagem_52.png" srcset="Imagem_52.png 1x, Imagem_52@2x.png 2x">
+			
+	</div>
+	<div id="Adventure">
+		<div id="Adventure_bx">
+			<span>Adventure</span>
+		</div>
+		<img id="Imagem_27" src="Imagem_27.png" srcset="Imagem_27.png 1x, Imagem_27@2x.png 2x">
+			
+		<img id="Imagem_28" src="Imagem_28.png" srcset="Imagem_28.png 1x, Imagem_28@2x.png 2x">
+			
+		<img id="Imagem_30" src="Imagem_30.png" srcset="Imagem_30.png 1x, Imagem_30@2x.png 2x">
+			
+		<img id="Imagem_31" src="Imagem_31.png" srcset="Imagem_31.png 1x, Imagem_31@2x.png 2x">
+			
+		<img id="Imagem_53" src="Imagem_53.png" srcset="Imagem_53.png 1x, Imagem_53@2x.png 2x">
+			
+		<img id="Imagem_54" src="Imagem_54.png" srcset="Imagem_54.png 1x, Imagem_54@2x.png 2x">
+			
+		<img id="Imagem_55" src="Imagem_55.png" srcset="Imagem_55.png 1x, Imagem_55@2x.png 2x">
+			
+	</div>
+	<svg class="Retngulo_8">  <!-- Barra Roxa Rodapé -->
+		<rect id="Retngulo_8" rx="0" ry="0" x="0" y="0" width=100% height="147">
+		</rect>
+	</svg>
+	<img id="Imagem_46" src="Imagem_46.png" srcset="Imagem_46.png 1x, Imagem_46@2x.png 2x">
+		
+</div>
+</body>
+</html>

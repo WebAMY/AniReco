@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+}
+.AniReco {
+	padding-left: 3%;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 50px;
+	color: white;
+	text-decoration: none;
+}
+
+.flex {
+	background: rgb(180,110,166);
+	padding-bottom: 10px;
+}
+
+.input-search {
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	margin: 20px 0px 20px 0px;
+	background-color: rgb(241,244,247);
+}
+
+.Login {
+	margin-left: 67%;
+	background: rgb(131,78,145);
+	padding: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	border-radius: 40px;
+	vertical-align: text-bottom;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.SignUp {
+	margin-left:1%;
+	background: rgb(131,78,145);
+	padding: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	border-radius: 40px;
+	vertical-align: text-bottom;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.container-login {
+	background: rgb(52,52,52);
+	padding: 100px 0px 100px 0px;
+}
+.container-box-login{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	width: 20%;
+	padding: 50px 100px 150px 100px;
+	border-radius: 50px;
+}
+.LoginButton{
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 10%;
+	background: rgb(131,78,145);
+	padding: 10px 75px 10px 75px;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.footer {
+    position: relative;
+    background: rgb(180,110,166);
+    padding: 100px;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: center;
+	margin-bottom:45px;
+}
+h2 {
+	margin: -3px;
+	font-size: 25px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: left;
+}
+h3 {
+	display: block;
+	position: absolute;
+}

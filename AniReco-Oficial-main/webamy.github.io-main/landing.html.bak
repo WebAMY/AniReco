@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>landing</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: landing;
+		--web-view-id: landing;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: landing;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#landing {
+		position: absolute;
+		width: 100%;
+		height: 2405px;
+		background-color: rgba(52,52,52,1);
+		overflow: hidden;
+		--web-view-name: landing;
+		--web-view-id: landing;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Imagem_10 {
+		position: absolute;
+		width: 100%;
+		max-width: 1920px;
+		top: 84px;
+		overflow: visible;
+	}
+	#Retngulo_24 {
+		fill: rgba(52,52,52,1);
+	}
+	.Retngulo_24 {
+		position: absolute;
+		overflow: visible;
+		width: 100%;
+		height: 1270px;
+		left: 0px;
+		top: 679px;
+	}
+	#Aba_Cima {
+		position: absolute;
+		width: 100%;
+		height: 93px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Retngulo_5 {
+		fill: rgba(180,110,166,1);
+	}
+	.Retngulo_5 {
+		position: absolute;
+		overflow: visible;
+		max-width: 100%;
+		height: 93px;
+		left: 0px;
+		top: 0px;
+	}
+	#Caminho_2 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Caminho_2 {
+		overflow: visible;
+		position: absolute;
+		width: 1051px;
+		height: 49px;
+		left: 235px;
+		top: 23.015px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Search {
+		left: 256px;
+		top: 37px;
+		position: absolute;
+		overflow: visible;
+		width: 66px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Libre Franklin;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 20px;
+		color: rgba(51,44,35,1);
+	}
+	#AniReco {
+		mix-blend-mode: lighten;
+		left: 38px;
+		top: 11px;
+		margin-right: 38px;
+		position: absolute;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: PT Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 55px;
+		color: rgba(255,255,255,1);
+	}
+	#Retngulo_5_x {
+		fill: rgba(43,45,66,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Retngulo_5_x {
+		display: none;
+		position: absolute;
+		overflow: visible;
+		width: 100%;
+		height: 695px;
+		left: 0px;
+		top: 0px;
+	}
+	#Aba_Cima_y {
+		position: absolute;
+		width: 1920px;
+		height: 179px;
+		left: 0px;
+		top: 0px;
+		display: none;
+		overflow: visible;
+	}
+	#Retngulo_5_z {
+		fill: rgba(43,45,66,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Retngulo_5_z {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 179px;
+		left: 0px;
+		top: 0px;
+	}
+	#Repetio_de_grade_1 {
+		position: absolute;
+		width: 115px;
+		height: 48px;
+		left: 20px;
+		top: 62px;
+		overflow: hidden;
+	}
+	#Group {
+		position: absolute;
+		width: 115px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Retngulo_2 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Retngulo_2 {
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_ {
+		position: absolute;
+		width: 115px;
+		height: 13px;
+		left: 0px;
+		top: 16px;
+		overflow: visible;
+	}
+	#Retngulo_2_ {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Retngulo_2_ {
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_ba {
+		position: absolute;
+		width: 115px;
+		height: 13px;
+		left: 0px;
+		top: 32px;
+		overflow: visible;
+	}
+	#Retngulo_2_ba {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Retngulo_2_ba {
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+	}
+	#Caminho_1 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Caminho_1 {
+		overflow: visible;
+		position: absolute;
+		width: 129px;
+		height: 129px;
+		left: 170px;
+		top: 22px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Logo {
+		left: 190px;
+		top: 60px;
+		position: absolute;
+		overflow: visible;
+		width: 90px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(20,20,20,1);
+	}
+	#login {
+		position: absolute;
+		width: 155px;
+		height: 51px;
+		left: 1533px;
+		top: 21px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Login.html;
+		cursor: pointer;
+	}
+	#Retngulo_25 {
+		fill: rgba(131,78,145,1);
+	}
+	.Retngulo_25 {
+		position: absolute;
+		overflow: visible;
+		width: 155px;
+		height: 51px;
+		left: 0px;
+		top: 0px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Login.html;
+		cursor: pointer;
+	}
+	#Login_bb {
+		left: 39px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 79px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Libre Franklin;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+	}
+	#sign_up {
+		position: absolute;
+		width: 155px;
+		height: 51px;
+		left: 1710px;
+		top: 21px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Signup___1.html;
+		cursor: pointer;
+	}
+	#Retngulo_29 {
+		fill: rgba(131,78,145,1);
+	}
+	.Retngulo_29 {
+		position: absolute;
+		overflow: visible;
+		width: 155px;
+		height: 51px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sign_Up_be {
+		left: 24px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 108px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Libre Franklin;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+	}
+	#animes_de_ao {
+		position: absolute;
+		width: 2024px;
+		height: 344px;
+		left: 61px;
+		top: 848px;
+		overflow: visible;
+		transition: all 0.3s linear;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: landing___1.html;
+		cursor: pointer;
+	}
+	#Imagem_18 {
+		position: absolute;
+		width: 243px;
+		height: 344px;
+		left: 1781px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_14 {
+		position: absolute;
+		width: 248px;
+		height: 344px;
+		left: 594px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_13 {
+		position: absolute;
+		width: 244px;
+		height: 344px;
+		left: 296px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_12 {
+		position: absolute;
+		width: 242px;
+		height: 344px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_44 {
+		position: absolute;
+		width: 237px;
+		height: 344px;
+		left: 896px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_47 {
+		position: absolute;
+		width: 241px;
+		height: 344px;
+		left: 1187px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_48 {
+		position: absolute;
+		width: 237px;
+		height: 344px;
+		left: 1490px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Action {
+		left: 64px;
+		top: 748px;
+		position: absolute;
+		overflow: visible;
+		width: 256px;
+		height: 54px;
+		text-align: left;
+		font-family: Libre Franklin;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+	}
+	#romance {
+		position: absolute;
+		width: 1996px;
+		height: 344px;
+		left: 69px;
+		top: 1342px;
+		overflow: visible;
+		transition: all 0.3s linear;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: landing___2.html;
+		cursor: pointer;
+	}
+	#Imagem_19 {
+		position: absolute;
+		width: 242px;
+		height: 344px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_22 {
+		position: absolute;
+		width: 240px;
+		height: 344px;
+		left: 1756px;
+		top: 0px;
+		overflow: visible;
+	}
+	#nx101573-Gql3Q3UX1jcu {
+		position: absolute;
+		width: 243px;
+		height: 344px;
+		left: 1459px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_49 {
+		position: absolute;
+		width: 236px;
+		height: 344px;
+		left: 296px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_50 {
+		position: absolute;
+		width: 236px;
+		height: 344px;
+		left: 586px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_51 {
+		position: absolute;
+		width: 239px;
+		height: 344px;
+		left: 876px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_52 {
+		position: absolute;
+		width: 236px;
+		height: 344px;
+		left: 1169px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Romance_bw {
+		left: 69px;
+		top: 1242px;
+		position: absolute;
+		overflow: visible;
+		width: 275px;
+		height: 54px;
+		text-align: left;
+		font-family: Libre Franklin;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+	}
+	#Adventure {
+		position: absolute;
+		width: 2054px;
+		height: 356px;
+		left: 64px;
+		top: 1838px;
+		overflow: visible;
+		transition: all 0.3s linear;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: landing___3.html;
+		cursor: pointer;
+	}
+	#Imagem_27 {
+		position: absolute;
+		width: 250px;
+		height: 355px;
+		left: 601px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_28 {
+		position: absolute;
+		width: 246px;
+		height: 354px;
+		left: 1808px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Imagem_30 {
+		position: absolute;
+		width: 249px;
+		height: 355px;
+		left: 1505px;
+		top: 1px;
+		overflow: visible;
+	}
+	#Imagem_31 {
+		position: absolute;
+		width: 247px;
+		height: 355px;
+		left: 905px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_53 {
+		position: absolute;
+		width: 244px;
+		height: 355px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_54 {
+		position: absolute;
+		width: 249px;
+		height: 355px;
+		left: 298px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagem_55 {
+		position: absolute;
+		width: 245px;
+		height: 354px;
+		left: 1206px;
+		top: 1px;
+		overflow: visible;
+	}
+	#Adventure_b {
+		left: 64px;
+		top: 1737px;
+		position: absolute;
+		overflow: visible;
+		width: 275px;
+		height: 54px;
+		text-align: left;
+		font-family: Libre Franklin;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+	}
+	#Retngulo_8 {
+		fill: rgba(180,110,166,1);
+	}
+	.Retngulo_8 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 147px;
+		left: 0px;
+		top: 2258px;
+	}
+	#Imagem_46 {
+		position: absolute;
+		width: 45px;
+		height: 38px;
+		left: 1223px;
+		top: 30px;
+		overflow: visible;
+	}
+</style>
+
+</head>
+<body>
+<div id="landing">
+	<img id="Imagem_10" src="Imagem_10.png" srcset="Imagem_10.png 1x, Imagem_10@2x.png 2x">
+		
+	<svg class="Retngulo_24">
+		<rect id="Retngulo_24" rx="75" ry="75" x="0" y="0" width=100% height="1270">
+		</rect>
+	</svg>
+	<div id="Aba_Cima">
+		<svg class="Retngulo_5">
+			<rect id="Retngulo_5" rx="0" ry="0" x="0" y="0" width="1920" height="93">
+			</rect>
+		</svg>
+		<svg class="Caminho_2" viewBox="0 0 1051 49">
+			<path id="Caminho_2" d="M 24.5 0 L 1026.5 0 C 1040.031005859375 0 1051 10.96902275085449 1051 24.5 C 1051 38.03097534179688 1040.031005859375 49 1026.5 49 L 24.5 49 C 10.96902275085449 49 0 38.03097534179688 0 24.5 C 0 10.96902275085449 10.96902275085449 0 24.5 0 Z">
+			</path>
+		</svg>
+		<div id="Search">
+			<span>Search</span>
+		</div>
+		<div id="AniReco">
+			<span>AniReco</span>
+		</div>
+	</div>
+	<svg class="Retngulo_5_x">
+		<rect id="Retngulo_5_x" rx="0" ry="0" x="0" y="0" width="1920" height="695">
+		</rect>
+	</svg>
+	<div id="Aba_Cima_y">
+		<svg class="Retngulo_5_z">
+			<rect id="Retngulo_5_z" rx="0" ry="0" x="0" y="0" width="1920" height="179">
+			</rect>
+		</svg>
+		<div id="Repetio_de_grade_1">
+			<div id="Group" class="">
+				<svg class="Retngulo_2">
+					<rect id="Retngulo_2" rx="0" ry="0" x="0" y="0" width="115" height="13">
+					</rect>
+				</svg>
+			</div>
+			<div id="Group_" class="">
+				<svg class="Retngulo_2_">
+					<rect id="Retngulo_2_" rx="0" ry="0" x="0" y="0" width="115" height="13">
+					</rect>
+				</svg>
+			</div>
+			<div id="Group_ba" class="">
+				<svg class="Retngulo_2_ba">
+					<rect id="Retngulo_2_ba" rx="0" ry="0" x="0" y="0" width="115" height="13">
+					</rect>
+				</svg>
+			</div>
+		</div>
+		<svg class="Caminho_1" viewBox="0 0 129 129">
+			<path id="Caminho_1" d="M 0 0 L 129 0 L 129 129 L 0 129 L 0 0 Z">
+			</path>
+		</svg>
+		<div id="Logo">
+			<span>Logo</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="login">
+		<svg class="Retngulo_25">
+			<rect onclick="application.goToTargetView(event)" id="Retngulo_25" rx="23" ry="23" x="0" y="0" width="155" height="51">
+			</rect>
+		</svg>
+		<div id="Login_bb">
+			<a>Login</a>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="sign_up">
+		<svg class="Retngulo_29">
+			<rect id="Retngulo_29" rx="23" ry="23" x="0" y="0" width="155" height="51">
+			</rect>
+		</svg>
+		<div id="Sign_Up_be">
+			<a>Sign Up</a>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="animes_de_ao">
+		<img id="Imagem_18" src="Imagem_18.png" srcset="Imagem_18.png 1x, Imagem_18@2x.png 2x">
+			
+		<img id="Imagem_14" src="Imagem_14.png" srcset="Imagem_14.png 1x, Imagem_14@2x.png 2x">
+			
+		<img id="Imagem_13" src="Imagem_13.png" srcset="Imagem_13.png 1x, Imagem_13@2x.png 2x">
+			
+		<img id="Imagem_12" src="Imagem_12.png" srcset="Imagem_12.png 1x, Imagem_12@2x.png 2x">
+			
+		<img id="Imagem_44" src="Imagem_44.png" srcset="Imagem_44.png 1x, Imagem_44@2x.png 2x">
+			
+		<img id="Imagem_47" src="Imagem_47.png" srcset="Imagem_47.png 1x, Imagem_47@2x.png 2x">
+			
+		<img id="Imagem_48" src="Imagem_48.png" srcset="Imagem_48.png 1x, Imagem_48@2x.png 2x">
+			
+	</div>
+	<div id="Action">
+		<span>Action</span>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="romance">
+		<img id="Imagem_19" src="Imagem_19.png" srcset="Imagem_19.png 1x, Imagem_19@2x.png 2x">
+			
+		<img id="Imagem_22" src="Imagem_22.png" srcset="Imagem_22.png 1x, Imagem_22@2x.png 2x">
+			
+		<img id="nx101573-Gql3Q3UX1jcu" src="nx101573-Gql3Q3UX1jcu.png" srcset="nx101573-Gql3Q3UX1jcu.png 1x, nx101573-Gql3Q3UX1jcu@2x.png 2x">
+			
+		<img id="Imagem_49" src="Imagem_49.png" srcset="Imagem_49.png 1x, Imagem_49@2x.png 2x">
+			
+		<img id="Imagem_50" src="Imagem_50.png" srcset="Imagem_50.png 1x, Imagem_50@2x.png 2x">
+			
+		<img id="Imagem_51" src="Imagem_51.png" srcset="Imagem_51.png 1x, Imagem_51@2x.png 2x">
+			
+		<img id="Imagem_52" src="Imagem_52.png" srcset="Imagem_52.png 1x, Imagem_52@2x.png 2x">
+			
+	</div>
+	<div id="Romance_bw">
+		<span>Romance</span>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Adventure">
+		<img id="Imagem_27" src="Imagem_27.png" srcset="Imagem_27.png 1x, Imagem_27@2x.png 2x">
+			
+		<img id="Imagem_28" src="Imagem_28.png" srcset="Imagem_28.png 1x, Imagem_28@2x.png 2x">
+			
+		<img id="Imagem_30" src="Imagem_30.png" srcset="Imagem_30.png 1x, Imagem_30@2x.png 2x">
+			
+		<img id="Imagem_31" src="Imagem_31.png" srcset="Imagem_31.png 1x, Imagem_31@2x.png 2x">
+			
+		<img id="Imagem_53" src="Imagem_53.png" srcset="Imagem_53.png 1x, Imagem_53@2x.png 2x">
+			
+		<img id="Imagem_54" src="Imagem_54.png" srcset="Imagem_54.png 1x, Imagem_54@2x.png 2x">
+			
+		<img id="Imagem_55" src="Imagem_55.png" srcset="Imagem_55.png 1x, Imagem_55@2x.png 2x">
+			
+	</div>
+	<div id="Adventure_b">
+		<span>Adventure</span>
+	</div>
+	<svg class="Retngulo_8">
+		<rect id="Retngulo_8" rx="0" ry="0" x="0" y="0" width="1920" height="147">
+		</rect>
+	</svg>
+	<img id="Imagem_46" src="Imagem_46.png" srcset="Imagem_46.png 1x, Imagem_46@2x.png 2x">
+		
+</div>
+</body>
+</html>
