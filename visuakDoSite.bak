@@ -1,0 +1,593 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+#landing {
+	width: 100%;
+	height: 2405px;
+	background-color: rgba(52,52,52,1);
+	overflow: hidden;
+}
+
+#Imagem_10 {
+	position: absolute;
+	width: max-width;
+	height: 691px;
+	left: -12px;
+	top: 84px;
+	overflow: visible;
+}
+#Retngulo_24 {
+	fill: rgba(52,52,52,1);
+}
+#Aba_Cima {
+	position: absolute;
+	width: 100%;
+	height: 93px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Retngulo_5 {
+	fill: rgba(180,110,166,1);
+}
+.Retngulo_5 {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 93px;
+	left: 0px;
+	top: 0px;
+}
+#Caminho_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Caminho_2 {
+	overflow: visible;
+	position: absolute;
+	width: 1051px;
+	height: 49px;
+	left: 235px;
+	top: 23.015px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Search {
+	left: 256px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 66px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Libre Franklin;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(51,44,35,1);
+}
+#AniReco {
+	mix-blend-mode: lighten;
+	left: 38px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 152px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: PT Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: rgba(255,255,255,1);
+}
+#Retngulo_5_r {
+	fill: rgba(43,45,66,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Retngulo_5_r {
+	display: none;
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 695px;
+	left: 0px;
+	top: 0px;
+}
+#Aba_Cima_s {
+	position: absolute;
+	width: 1920px;
+	height: 179px;
+	left: 0px;
+	top: 0px;
+	display: none;
+	overflow: visible;
+}
+#Retngulo_5_t {
+	fill: rgba(43,45,66,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Retngulo_5_t {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 179px;
+	left: 0px;
+	top: 0px;
+}
+#Repetio_de_grade_1 {
+	position: absolute;
+	width: 115px;
+	height: 48px;
+	left: 20px;
+	top: 62px;
+	overflow: hidden;
+}
+#Group {
+	position: absolute;
+	width: 115px;
+	height: 13px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Retngulo_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+#Group_x {
+	position: absolute;
+	width: 115px;
+	height: 13px;
+	left: 0px;
+	top: 16px;
+	overflow: visible;
+}
+#Retngulo_2_y {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+#Group_z {
+	position: absolute;
+	width: 115px;
+	height: 13px;
+	left: 0px;
+	top: 32px;
+	overflow: visible;
+}
+#Retngulo_2_ {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+#Caminho_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+	
+#Logo {
+	left: 190px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(20,20,20,1);
+}
+#login {
+	position: absolute;
+	width: 155px;
+	height: 51px;
+	left: 1533px;
+	top: 21px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+}
+#Retngulo_25 {
+	fill: rgba(131,78,145,1);
+}
+#Retngulo_25 {
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+}
+#Login_ {
+	left: 39px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Libre Franklin;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#sign_up {
+	position: absolute;
+	width: 155px;
+	height: 51px;
+	left: 1710px;
+	top: 21px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Signup___1.html;
+	cursor: pointer;
+}
+#Retngulo_29 {
+	fill: rgba(131,78,145,1);
+}
+#Retngulo_29 {
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Sign_Up_ {
+	right: 100%;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Libre Franklin;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#animes_de_ao {
+	position: absolute;
+	width: 90%;
+	height: 344px;
+	left: 61px;
+	top: 848px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+#Imagem_43 {
+	position: absolute;
+	width: 240px;
+	height: 344px;
+	left: 3250px;
+	top: 0px;
+	overflow: visible;
+}
+#Imagem_42 {
+	position: absolute;
+	width: 242px;
+	height: 344px;
+	left: 2954px;
+	top: 0px;
+	overflow: visible;
+}
+#Imagem_41 {
+	position: absolute;
+	width: 242px;
+	height: 344px;
+	left: 2658px;
+	top: 0px;
+	overflow: visible;
+}
+#Imagem_40 {
+	position: absolute;
+	width: 232px;
+	height: 344px;
+	left: 2372px;
+	top: 0px;
+	overflow: visible;
+}
+#Imagem_39 {
+	position: absolute;
+	width: 240px;
+	height: 344px;
+	left: 2078px;
+	top: 0px;
+	overflow: visible;
+}
+#Imagem_18 {
+	position: absolute;
+	width: 243px;
+	height: 344px;
+	left: 1781px;
+	top: 0px;
+	overflow: visible;
+}
+#Imagem_14 {
+	position: absolute;
+	width: 248px;
+	height: 344px;
+	left: 594px;
+	top: 0px;
+	overflow: visible;
+}
+#Imagem_13 {
+	position: absolute;
+	width: 244px;
+	height: 344px;
+	left: 296px;
+	top: 0px;
+	overflow: visible;
+}
+#Imagem_12 {
+	position: absolute;
+	width: 242px;
+	height: 344px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Imagem_44 {
+	position: absolute;
+	width: 237px;
+	height: 344px;
+	left: 896px;
+	top: 0px;
+	overflow: visible;
+}
+#Imagem_47 {
+	position: absolute;
+	width: 241px;
+	height: 344px;
+	left: 1187px;
+	top: 0px;
+	overflow: visible;
+}
+#Imagem_48 {
+	position: absolute;
+	width: 237px;
+	height: 344px;
+	left: 1490px;
+	top: 0px;
+	overflow: visible;
+}
+#Action {
+	left: 64px;
+	top: 748px;
+	position: absolute;
+	overflow: visible;
+	width: 256px;
+	height: 54px;
+	text-align: left;
+	font-family: Libre Franklin;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 45px;
+	color: rgba(255,255,255,1);
+}
+#romance {
+	position: absolute;
+	max-width: 100%;
+	height: 445px;
+	left: 64px;
+	top: 1242px;
+	overflow: visible;
+}
+#Romance_bo {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 275px;
+	height: 54px;
+	text-align: left;
+	font-family: Libre Franklin;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 45px;
+	color: rgba(255,255,255,1);
+}
+#Imagem_19 {
+	position: absolute;
+	width: 242px;
+	height: 344px;
+	left: 0px;
+	top: 101px;
+	overflow: visible;
+}
+#Imagem_22 {
+	position: absolute;
+	width: 240px;
+	height: 344px;
+	left: 1756px;
+	top: 101px;
+	overflow: visible;
+}
+#nx101573-Gql3Q3UX1jcu {
+	position: absolute;
+	width: 243px;
+	height: 344px;
+	left: 1459px;
+	top: 101px;
+	overflow: visible;
+}
+#Imagem_49 {
+	position: absolute;
+	width: 236px;
+	height: 344px;
+	left: 296px;
+	top: 101px;
+	overflow: visible;
+}
+#Imagem_50 {
+	position: absolute;
+	width: 236px;
+	height: 344px;
+	left: 586px;
+	top: 101px;
+	overflow: visible;
+}
+#Imagem_51 {
+	position: absolute;
+	width: 239px;
+	height: 344px;
+	left: 876px;
+	top: 101px;
+	overflow: visible;
+}
+#Imagem_52 {
+	position: absolute;
+	width: 236px;
+	height: 344px;
+	left: 1169px;
+	top: 101px;
+	overflow: visible;
+}
+#Adventure {
+	position: absolute;
+	max-width: 100%;
+	height: 457px;
+	left: 64px;
+	top: 1737px;
+	overflow: visible;
+}
+#Adventure_bx {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 275px;
+	height: 54px;
+	text-align: left;
+	font-family: Libre Franklin;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 45px;
+	color: rgba(255,255,255,1);
+}
+#Imagem_27 {
+	position: absolute;
+	width: 250px;
+	height: 355px;
+	left: 601px;
+	top: 101px;
+	overflow: visible;
+}
+#Imagem_28 {
+	position: absolute;
+	width: 246px;
+	height: 354px;
+	left: 1808px;
+	top: 103px;
+	overflow: visible;
+}
+#Imagem_30 {
+	position: absolute;
+	width: 249px;
+	height: 355px;
+	left: 1505px;
+	top: 102px;
+	overflow: visible;
+}
+#Imagem_31 {
+	position: absolute;
+	width: 247px;
+	height: 355px;
+	left: 905px;
+	top: 101px;
+	overflow: visible;
+}
+#Imagem_53 {
+	position: absolute;
+	width: 244px;
+	height: 355px;
+	left: 0px;
+	top: 101px;
+	overflow: visible;
+}
+#Imagem_54 {
+	position: absolute;
+	width: 249px;
+	height: 355px;
+	left: 298px;
+	top: 101px;
+	overflow: visible;
+}
+#Imagem_55 {
+	position: absolute;
+	width: 245px;
+	height: 354px;
+	left: 1206px;
+	top: 102px;
+	overflow: visible;
+}
+#Retngulo_8 {
+	fill: rgba(180,110,166,1);
+}
+.Retngulo_8 {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 147px;
+	left: 0px;
+	top: 2258px;
+}
+#Imagem_46 {
+	position: absolute;
+	width: 45px;
+	height: 38px;
+	left: 1223px;
+	top: 30px;
+	overflow: visible;
+}

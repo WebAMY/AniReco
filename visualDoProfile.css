@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+}
+.AniReco {
+	padding-left: 3%;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 50px;
+	color: white;
+	text-decoration: none;
+}
+.flex {
+	background: rgb(180,110,166);
+	padding-bottom: 10px;
+}
+.input-search {
+	margin-left:10%;
+	width: 50%;
+	padding: 10px;
+	border-radius: 40px;
+	background-image: url(Imagem_49.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	vertical-align: text-bottom;
+}
+.Username {
+	margin-left:10%;
+	background: white;
+	padding: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	border-radius: 40px;
+	vertical-align: text-bottom;
+	color: rgb(52,52,52);
+	text-decoration: none;
+	font-size: 22px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.container-genres {
+	position:relative;
+	background: rgb(52,52,52);
+	padding: 100%;
+}
+.banner {
+	width: 100%;
+}
